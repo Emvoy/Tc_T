@@ -2296,21 +2296,12 @@ figcaption {
     height: 55px;
     padding-right: 30px;
     padding-left: 30px;
-    border-bottom: 1px solid #e0cfc4;
-    background-color: #e0cfc4;
+    border-bottom: 1px solid #3fa5ff;
+    background-color: #3fa5ff;
     line-height: 20px
 }
 
-.logo {
-    font-family: Raleway,sans-serif;
-    color: #44484d;
-    font-size: 16px;
-    line-height: 55px;
-    font-weight: 600;
-    text-align: left;
-    letter-spacing: 4px;
-    text-transform: uppercase
-}
+
 
 .nav-link {
     -webkit-transition: .2s;
@@ -2320,12 +2311,12 @@ figcaption {
     font-size: 12px;
     line-height: 16px;
     font-weight: 600;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-transform: uppercase
 }
 
 .nav-link.w--current,.nav-link:hover {
-    color: #3fa5ff
+    color: #001f41
 }
 
 .brand {
@@ -2347,7 +2338,7 @@ figcaption {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    line-height: 10px
+   
 }
 
 .container-fluid {
