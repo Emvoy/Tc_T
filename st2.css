@@ -2888,6 +2888,13 @@ figcaption {
     right: 0;
     text-align: center
 }
+.menu-wrapper img{
+    width: 10px;
+}
+.head h2{
+    font-size: 10px;
+
+}
 
 .logo-slideshow-tooltip-arrow {
     position: absolute;
