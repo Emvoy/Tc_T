@@ -16,24 +16,32 @@
     background-color:rgb(245,241,238) ;
   }
   .header{
-    padding: 1.5rem 3%;
+    padding: 2rem 5%;
   position:sticky;
   top: 0;
  width: 100%;
   display: flex;
- 
-  z-index: 2;
+ height: 12vh;
+  z-index: 3;
 
   justify-content: space-between;
   align-items: center;
-  background: rgb(224,209,196);
+  background:#3fa5ff;
   }
 
 
   .header img{
-    width: 55px;
+    width: 40px;
     
-    border-radius: 15px;
+    border-radius: 10px;
+  }
+  .header h1{
+    color:white;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
   }
   #logo{
     color:white;
@@ -283,6 +291,10 @@ opacity: 0.7;
   }
   .tag{width: 50%;
   }
+  .tag h1{
+    font-style: italic;
+    color: white;
+  }
   .one{
     display: block;
   }
@@ -432,9 +444,23 @@ text-align: center;
     
       .header{
       
-       width: 90%;
+       width: 100%;
        margin: auto;
-        padding: 1rem 5%;
+        padding: 0.8rem;
+        
+
+      }
+      .tag h1{
+        line-height: 3rem;
+        font-style: italic;
+        font-weight: 800;
+        color: white;
+      
+      }
+      .header h1{
+        font-weight:500;
+      margin: auto;
+        line-height: 3rem;
         
       }
       .main-welcome{
